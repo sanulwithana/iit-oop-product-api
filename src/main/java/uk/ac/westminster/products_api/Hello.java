@@ -13,7 +13,7 @@ import java.util.Date;
 class Hello {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello World!";
+        return "Hello from IIT!";
     }
 
     @GetMapping("/status")
