@@ -21,8 +21,8 @@ class Hello {
         return "API is running in v1.0" + " on " + LocalDateTime.now();
     }
 
-    @GetMapping("/bye")
-    public String bye() {
+    @GetMapping("/goodbye")
+    public String goodBye() {
         return "Goodbye from IIT";
     }
 }
